@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "records": [
+    {
+      "record_id": "synthetic-input-a",
+      "relative_path": "inputs/sample_a.txt",
+      "logical_role": "input",
+      "artifact_type": "data",
+      "expected_size": 26,
+      "hash_algorithm": "sha256",
+      "expected_digest": "de61d48631a5aef4c5aa5defc8cbc16f7b4dde8cf94057b782e1d6fab5ea9038"
+    }
+  ]
+}
