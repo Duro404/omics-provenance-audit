@@ -31,4 +31,4 @@ individual function-level receipts. Later calls cannot establish that history.
 Private data/logs are excluded from proposed public examples.
 This v0.1.0rc2 prerelease candidate is licensed under [MIT](../LICENSE).
 Copyright (c) 2026 Shen Jianuo
-Publication remains unperformed and requires separate authorization.
+Availability of source code or a release bundle does not expand this validated profile.

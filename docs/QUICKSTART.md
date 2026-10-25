@@ -3,9 +3,15 @@
 Use Windows API 10.0/build 26200 + CPython 3.13.2 AMD64 + local fixed NTFS.
 Start PowerShell in the supplied candidate folder with the `.pyz`, `docs/` and
 `examples/`. `python` must resolve to the validated interpreter.
-No installation is required. All example payloads were newly constructed for this
-final candidate. Keep the accompanying [MIT LICENSE](../LICENSE) with the software.
-The full candidate ZIP is the recommended distribution; this is not a public-release announcement.
+No installation is required. Use the complete versioned distribution bundle with
+the unchanged PYZ and accompanying [MIT LICENSE](../LICENSE); this guide assumes
+that extracted layout. The source repository and GitHub-generated source archives
+do not include the portable PYZ.
+
+Use the example files directly from the distribution ZIP. A Git checkout that
+converts LF to CRLF changes their byte baseline. The supplied Manifest describes
+the original ZIP bytes, not a line-ending-converted checkout. The ZIP workflow
+does not require changing global Git settings.
 
 ## 1. Candidate and unique outputs
 

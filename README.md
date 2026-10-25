@@ -2,8 +2,7 @@
 
 Offline, read-only research file checklist and declared provenance audit.
 
-**v0.1.0rc2 is a prerelease candidate prepared locally; it has not been published.**
-It is not a stable release. MIT licensing does not itself publish the software.
+**Version 0.1.0rc2 is a pre-release candidate and is not a stable release.**
 
 | Entry | Checks | Does not establish |
 | --- | --- | --- |
@@ -19,12 +18,13 @@ Other Windows, Python, Linux, removable/network-drive and filesystem combination
 are not supported by the candidate entry points.
 
 Runtime uses the Python standard library; no pip installation or network is needed.
-The recommended distribution is the complete
-`OPA_0.1.0rc2_PUBLIC_RELEASE_CANDIDATE_FINAL.zip`, including the root `LICENSE`.
-Once a publication is separately authorized, obtain that ZIP from the publisher's
-approved release location, check its SHA256 against the accompanying checksum list,
-and extract it to a new local folder. No public download location has been created by
-this preparation. Run the commands below from the extracted folder.
+Use the versioned distribution bundle supplied with the corresponding
+[GitHub Release](https://github.com/Duro404/omics-provenance-audit/releases) when available.
+The recommended distribution is the complete ZIP bundle containing the unchanged
+RC2 PYZ, examples, documentation and root `LICENSE`. Check the bundle against its
+accompanying SHA256 list, extract it into a new local folder, and run the commands
+below from that folder. The source repository and GitHub-generated source archives
+do not include the portable PYZ.
 Keep `omics_provenance_audit-0.1.0rc2.pyz` unchanged beside `LICENSE`.
 The original PYZ does not contain LICENSE internally. Any future standalone PYZ
 distribution must also make the MIT copyright and permission notice available;
@@ -106,6 +106,7 @@ License: **MIT**, provided in the root [LICENSE](LICENSE).
 Copyright (c) 2026 Shen Jianuo
 
 The rights holder has authorized this license; that declaration is not third-party
-legal certification. Hosting, Git operations and publication remain separately
-authorized actions and have not been performed.
+legal certification. The software runs offline and does not upload reports or
+publish releases. Repository visibility and release distribution are separate
+maintainer actions.
 [RC2 prerelease notes](RELEASE_NOTES_v0.1.0rc2.md).
